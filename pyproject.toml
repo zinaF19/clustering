@@ -1,0 +1,17 @@
+[project]
+name = "ds-clustering"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "gensim>=4.4.0",
+    "nltk>=3.9.4",
+    "rasterio>=1.5.0",
+    "scikit-learn>=1.9.0",
+    "seaborn>=0.13.2",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.3.0",
+    "jinja2>=3.1.6",
+]
